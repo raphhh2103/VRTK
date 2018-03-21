@@ -108,18 +108,18 @@
         protected override void Awake()
         {
             base.Awake();
-            bullet = transform.Find("Bullet").gameObject;
-            bullet.SetActive(false);
+            //bullet = transform.Find("Bullet").gameObject;
+            //bullet.SetActive(false);
 
             trigger = transform.Find("TriggerHolder").gameObject;
 
-            slide = transform.Find("Slide").GetComponent<RealGun_Slide>();
-            slideRigidbody = slide.GetComponent<Rigidbody>();
-            slideCollider = slide.GetComponent<Collider>();
+            //slide = transform.Find("Slide").GetComponent<RealGun_Slide>();
+            //slideRigidbody = slide.GetComponent<Rigidbody>();
+            //slideCollider = slide.GetComponent<Collider>();
 
-            safetySwitch = transform.Find("SafetySwitch").GetComponent<RealGun_SafetySwitch>();
-            safetySwitchRigidbody = safetySwitch.GetComponent<Rigidbody>();
-            safetySwitchCollider = safetySwitch.GetComponent<Collider>();
+            //safetySwitch = transform.Find("SafetySwitch").GetComponent<RealGun_SafetySwitch>();
+            //safetySwitchRigidbody = safetySwitch.GetComponent<Rigidbody>();
+            //safetySwitchCollider = safetySwitch.GetComponent<Collider>();
         }
 
         protected override void Update()
